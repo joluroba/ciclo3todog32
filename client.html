@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>G32-R2</title>
+        <meta charset="utf-8">
+        <meta name="description" content="Este es un documento HTML5">
+        <meta name="keywords" content="HTML, CSS, JavaScript">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <link rel="stylesheet" href="css/misestilos.css">
+        <script type="text/javascript" src="js/funciones.js"></script>    </head>
+    <body>
+        <header id="cabeceralogo">
+            <div>
+            <h1>Clientes </h1>
+            </div>
+            </header>
+            <nav id="menuprincipal">
+            <div>
+            <ul>
+            <li><a href="index.html">Principal</a></li>            
+            <li><a href="category.html">Categorias</a></li>
+            <li><a href="bike.html">Bicicletas</a></li>
+            <li><a href="client.html">Clientes</a></li>
+            <li><a href="message.html">Mensajes</a></li>
+            <li><a href="reservation.html">Reservaciones</a></li>
+            <li><a href="reports.html">Reportes</a></li>            
+            </ul>
+            </div>
+            </nav>    
+        <h1> Clientes</h1>
+    <div id="resultado3"></div>
+    <button onclick="traerInformacionClientes()" > Consultar Clientes</button>
+    
+    <div>
+        <label>Correo:</label>
+        <input type="text" id="CLemail" placeholder="email"><br>
+        <label>Contraseña:</label>
+        <input type="text" id="CLpassword" placeholder="password"><br>
+        <label>Nombre:</label>
+        <input type="text" id="CLname" placeholder="name"><br>
+        <label>Edad:</label>
+        <input type="number" id="CLage" placeholder="age"><br> 
+    </div>
+    <button onclick="guardarInformacionClientes()">Guardar Clientes</button>
+    </body>
+
+</html>
+
+
